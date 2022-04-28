@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@500&family=Square+Peg&family=Updock&family=Zen+Kurenaido&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+
+*{
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box;
+  box-shadow: tomato;
+  font-family: 'Cinzel', serif;
+  background-color: rgb(238, 188, 230);
+ background-image: url("http://source.unsplash.com/2800x600/?white");;
+}
+.navbar{
+  background-color: rgb(81, 24, 24) !important;
+  background-color: black;
+}
+.navbar-brand{
+  font: size 1.2rem !important ;
+  font-weight: bold;
+  font-family: 'Square Peg', cursive;  
+color: rgb(69, 5, 217) !important;
+}
+.navbar a{
+  font-size: 2.0rem;
+  text-transform: capitalize;
+
+}
+.menu_active{
+  font-weight: bold;
+  border-bottom: 1px solid rosybrown;
+
+}
+.nav-item {
+  font-size: 1.0rem;
+}
+.navbar a:hover{
+  color: aqua !important;
+}
+@media (max-width:991px){
+  .navbar-brand{
+    font-size: 1.5rem !important;
+  }
+}
+#header{
+  width: 100%;
+  height: 80vh;
+  margin-top: 70px;
+}
+#header h1{
+  margin: 0 0 10px 0;
+  font-size: 48px;
+  font-weight: 700;
+  color: black;
+  font-family: 'Raleway', sans-serif;
+}
+#header .brand-name{
+  color:blue;
+}
+#header h2{
+  font-family: 'Cinzel', serif;
+  color: rgb(121, 72, 7);
+}
+#header .btn-get-started{
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  color: rgb(229, 8, 8);
+  border: 2px solid red;
+  text-decoration: none;
+}
+#header .btn-get-started :hover {
+  background: red;
+  color: beige;
+
+}
+.header-img{
+  text-align: right;
+}
+#header .animated{
+  animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+.formInput{
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+}
+
+input{
+  padding: 15px;
+  margin: 10px 0px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+
+label{
+  font-size: 12px;
+  color: gray;
+}
+
+span{
+  font-size: 12px;
+  padding: 3px;
+  color: red;
+  display: none;
+}
+
+input:invalid[focused="true"]{
+  border: 1px solid red;
+}
+
+input:invalid[focused="true"] ~ span{
+  display: block;
+}
+.app {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: linear-gradient(
+      rgba(255, 255, 255, 0.7),
+      rgba(255, 255, 255, 0.3)
+    ),
+    url("https://images.pexels.com/photos/114979/pexels-photo-114979.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-size: cover;
+  background-position: center;
+}
+
+form{
+    background-color: white;
+    padding: 0px 60px;
+    border-radius: 10px;
+}
+
+h1{
+    color: rgb(232, 118, 24);
+    text-align: left;
+}
+
